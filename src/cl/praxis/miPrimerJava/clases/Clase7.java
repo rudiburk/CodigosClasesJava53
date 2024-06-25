@@ -1,6 +1,9 @@
 package cl.praxis.miPrimerJava.clases;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class Clase7 {
     public static void main(String[] args) {
@@ -37,16 +40,31 @@ public class Clase7 {
 
         // ejemplo for
 
-        for (int i=0 ; i<=10 ; i++) {
-            System.out.print(i);
-        }
+//        for (int i=0 ; i<=10 ; i++) {
+//            System.out.println(i);
+//            try {
+//                TimeUnit.SECONDS.sleep(2);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
 
 
+       // ejemplo wilde (sumatoria del 1 a 100) sería mas útil hacerlo con un for.
+//        int contador = 0;
+//        int suma = 0;
+//
+//        while (contador <=100) {
+//            suma += contador;
+//            contador += 1;
+//        }
+//        // a+= 1 --> a = a+1
+//        System.out.println(suma);
 
-
-
-
-
+            int suma2=0;
+            for (int i=5; i<=100; i++) {
+                suma2 +=i;
+            }
+        System.out.println(suma2);
 
 
 

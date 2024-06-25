@@ -22,6 +22,8 @@ public class Fechas {
         month2 = Integer.parseInt(date2.substring(3, 5));
         year2 = Integer.parseInt(date2.substring(6, 10));
 
+
+
         if ((year1 == year2) && (month1 == month2) && (day1 == day2)) {
             System.out.println("Ambos tienen la misma edad");
         } else if ((year1 > year2) || ((year1 == year2)
