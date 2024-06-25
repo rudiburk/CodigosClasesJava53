@@ -1,11 +1,9 @@
-package cl.praxis.miPrimerJava;
+package cl.praxis.miPrimerJava.clases;
 // comentarios en una sola linea
 /* esto me permite
 comentar más de una linea
  */
 
-
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

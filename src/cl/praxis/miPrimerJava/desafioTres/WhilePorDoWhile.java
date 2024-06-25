@@ -1,4 +1,4 @@
-package cl.praxis.miPrimerJava.desafioUno;
+package cl.praxis.miPrimerJava.desafioTres;
 
 import java.util.Scanner;
 
@@ -103,20 +103,20 @@ public class WhilePorDoWhile {
 //****************************************************************************************
         // secuencia de fibonacci:
 
-        int num1=0;
-        int num2=1;
-        int suma=0;
-        int digito;
-
-        System.out.println("Digite um numero: ");
-        digito = sc.nextInt();
-
-        for(int i=1; i<=(digito+1); i++){
-            System.out.println(num1);
-            suma =num1+num2;
-            num1=num2;
-            num2=suma;
-        }
+//        int num1=0;
+//        int num2=1;
+//        int suma=0;
+//        int digito;
+//
+//        System.out.println("Digite um numero: ");
+//        digito = sc.nextInt();
+//
+//        for(int i=1; i<=(digito+1); i++){
+//            System.out.println(num1);
+//            suma =num1+num2;
+//            num1=num2;
+//            num2=suma;
+//        }
 
 
 

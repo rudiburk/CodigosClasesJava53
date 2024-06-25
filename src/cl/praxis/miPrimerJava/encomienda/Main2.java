@@ -1,4 +1,4 @@
-package cl.praxis.miPrimerJava;
+package cl.praxis.miPrimerJava.encomienda;
 
 import java.util.Scanner;
 
