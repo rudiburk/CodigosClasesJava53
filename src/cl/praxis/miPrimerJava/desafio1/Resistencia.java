@@ -1,4 +1,4 @@
-package cl.praxis.miPrimerJava.desafioUno;
+package cl.praxis.miPrimerJava.desafio1;
 
 
 import java.util.Scanner;
