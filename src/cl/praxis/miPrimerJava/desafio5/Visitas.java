@@ -1,22 +1,24 @@
 package cl.praxis.miPrimerJava.desafio5;
 
+import java.util.ArrayList;
+
 public class Visitas {
     public static void main(String[] args) {
-        if (args.length > 0 ) {
-            promedio(args);
+        ArrayList<Integer> visitas = new ArrayList<>();
+        for (String arg : args) {
+            int visita = Integer.parseInt(arg);
+            visitas.add(visita);
         }
+        int promedio = Promedio(visitas);
+        System.out.println("Para la entrada anterios, el resultado es: " + promedio);
+
 
     }
-    private static void promedio (String[] visitas) {
+    public static int Promedio (ArrayList <Integer> visitas){
         int suma = 0;
-        int promedio;
-
-        for (String visita : visitas) {
-            suma += Integer.parseInt(visita);
-
+        for (int visita: visitas){
+            suma += visita;
         }
-        promedio = suma / visitas.length;
-        System.out.println( "Para la entrada anterior, el resultado es: " + promedio );
-
+        return suma / visitas.size();
     }
 }
