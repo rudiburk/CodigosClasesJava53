@@ -1,6 +1,6 @@
 package cl.praxis.miPrimerJava.desafio10;
 
-public class mainLibroVentas {
+public class MainLibroVentas {
     public static void main(String[] args) {
         Cliente cliente = new Cliente("Tiare Linco", 28);
         Vehiculo vehiculo = new Vehiculo("ASDF11");
